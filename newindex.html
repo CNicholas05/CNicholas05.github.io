@@ -2,10 +2,20 @@
 <head>
 <title>RMIT Assignment</title>
 	<link rel="stylesheet" href="style.css">
+<style>
+@font-face {
+   font-family: Linebeam;
+   src: url(Linebeam.ttf);
+}
+
+h5 {
+   font-family: Linebeam;
+}
+</style>
 </head>
 <body>
 
-
+	<h5>Welcome</h5>
 	<h1>Introduction</h1>
 	<p><b> Student number: s3956701
 email address: s3956701@student.rmit.edu.au</b> <br>
@@ -52,8 +62,14 @@ It may be difficult to initially interact with a classmate but when I get to kno
 when forming a team I need to make sure that we have a strict understanding of a schedule so that I can set plenty of reminders on when I need to share work with people and constantly stay in touch with them so as to keep my mind on the current task, <br>this can be done with apps such as discord, Microsoft teams, skype etc </p>
 
 
-
-
+<h3>Project Idea </h3>
+	<p>My current idea for a project is an open-source program for real time frame interpolation.<br> This will be mainly useful in the gaming space where you would have double the fps but with a bit more delay, in slower games this delay will not matter and could potentially lead to a better user experience for otherwise unoptimized games.<br> By keeping it open source, people could modify it to work with other engines.<br> The main goal would be to get a version of it that would work in a popular engine like unreal engine.
+Many modern TV’s have a feature for real time frame interpolation that can make gaming on consoles be an even more enjoyable, depending on the TV of course, however such a feature is lacking in the PC market, but I can’t figure out why.<br> Many games have a locked render frame rate, for different reasons for every game, so there is a real niche market for a program that can accomplish real-time frame interpolation.<br>
+Without the use of machine learning or AI you cannot interpolate into the future, so instead you have to accept a 1 frame delay, meaning you always have to be at least 1 rendered frame behind what would otherwise be displayed, then by finding the high contrast pixel movement between your current frame and your future unrendered frame, you get an extra frame in the middle, essentially achieving a higher Framerate.<br> The program would have to be tweaked optimistically per engine, more realistically per game, this becomes less of a program by making it open source, as users can share config files for the program that allows it to be used for another engine or another game.<br>
+This project would be written from scratch in C++, the only programs required would be a suitable C++ development environment, programs such as eclipse or Microsoft Visual Studio and the engine that I want to interpolate in, in this case unreal engine.<br> Programs such as GitHub would be useful to share progress on.<br>
+While all this is good on paper, I do not have a deep enough understanding of the required skills to go ahead with this project.<br> First, I would need to learn how to properly code in C++ as my current skills are extremely basic.<br> Secondly, I would need a better understanding of Unreal engines render layer and how it interacts with Directx 11 and Directx 12.<br> As I progress, I may find that this project is simply not feasible in the time span, I will have to learn more about IT to fully understand the task ahead of me.<br>
+If this project is feasible, realistic and I succeed then what results is a program that can benefit the users experience in games that do not require low latency and are otherwise perhaps unoptimized.<br> An extreme niche exists, and I hope with this program I could fill it.<br> The development would have allowed me to learn more about IT and Computers, so the way I see it, it’s a win.<br>
+ </p>
 
 
 
